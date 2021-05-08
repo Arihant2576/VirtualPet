@@ -50,7 +50,7 @@ function draw() {
 
   fill("White");
   if(lastFed>12){
-    text("Last Fed Time : " + lastFed-12 + "PM", 450, 30);
+    text("Last Fed Time : " + (lastFed-12) + "PM", 450, 30);
   } 
   else if(lastFed == 12){
     text("Last Fed Time : 12PM" , 450, 30);
